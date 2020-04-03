@@ -1,0 +1,35 @@
+<div class="contenedor">
+
+  <div class="row" name="titulo">
+    <H1 class="titulo">Twitter</H1>
+    <img src="../twitter.png" alt=" " height="14" width="14"> 
+  </div>
+
+  <div class="row">
+    <div class="column" name="modulos">
+      
+    
+    <h2>Menu</h2>
+    
+    <ul> <a href="">Home</a> </ul>
+    <ul> <a href="">Usuarios</a> </ul>
+    <ul> <a href="">mensajes</a> </ul>
+
+
+     
+
+    </div>
+    
+    <div class="column" name="tweets" >
+      <h2>Tweets</h2>
+
+    <ul>
+      <div *ngFor="let d of data"  class="twww">
+        {{ d }}
+      
+      </div>
+    </ul>
+
+    </div>
+  </div>
+</div>

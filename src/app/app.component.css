@@ -1,0 +1,26 @@
+.contenedor{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    font-size: 30;
+} 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+   
+}
+.titulo{
+    background-color: dodgerblue;   
+}
+.column{
+      text-align: center;
+}
+.tweet{
+    text-align: center;
+       color:black;  
+}
